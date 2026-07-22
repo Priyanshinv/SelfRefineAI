@@ -5,9 +5,12 @@ initial answer, critique it, and iteratively improve it. It also includes tools
 for comparing baseline and refined answers with LLM-based judging and standard
 SQuAD evaluation metrics.
 
-The project is based on the self-refinement pattern: a language model reviews
-its own response, identifies weaknesses, and produces a stronger answer without
-requiring manually written feedback.
+This project is inspired by the paper
+[**Self-Refine: Iterative Refinement with Self-Feedback**](https://arxiv.org/abs/2303.17651).
+It implements a simplified version of the paper's central idea: a language
+model generates an initial response, provides feedback on that response, and
+uses the feedback to produce an improved answer. This repository is an
+educational experiment rather than an official implementation of the paper.
 
 ## Features
 
